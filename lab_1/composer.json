@@ -1,0 +1,19 @@
+{
+  "name": "belalaboata/lab_1",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Belal Abo Ata",
+      "email": "belalbelalmohamed1234@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [
+      "config.php",
+    ],
+    "psr-4": {
+      "Model\\": "./Model/"
+    }
+  }
+}
